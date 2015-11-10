@@ -1,0 +1,77 @@
+table.AmazonWooCommerce-table {
+    width: 100%;
+    margin: 0;
+    clear: both;
+}
+
+table.AmazonWooCommerce-table tr td,table.AmazonWooCommerce-table tr th {
+    vertical-align: top;
+}
+
+table.AmazonWooCommerce-table thead tr {
+    background: #f9fafa;
+}
+
+table.AmazonWooCommerce-table tr th {
+    padding: 11px 20px;
+    border-bottom: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+}
+
+table.AmazonWooCommerce-table thead tr {
+}
+
+table.AmazonWooCommerce-table tr th:last-child {
+    border-right: 0;
+}
+
+table.AmazonWooCommerce-table tr td {
+    border-bottom: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    padding: 7px 20px;
+}
+
+table.AmazonWooCommerce-table tr td:last-child {
+    border-right: 0;
+}
+
+table.AmazonWooCommerce-table tr:last-child td {
+    border-bottom: 0;
+}
+
+table.AmazonWooCommerce-table tr td.AmazonWooCommerce-icon-column {
+    text-align: center;
+    width: 80px;
+}
+
+table.AmazonWooCommerce-table tr td.AmazonWooCommerce-icon-column img {
+    margin: 0 2px;
+}
+
+table.AmazonWooCommerce-table tr.odd {
+    background-color: #f4f4f4;
+}
+
+table.AmazonWooCommerce-table tr.even {
+    background-color: #fcfcfc;
+}
+
+@media only screen and (max-width:480px) {
+    table.AmazonWooCommerce-table thead th {
+        overflow: hidden;
+        padding: 8px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .dataTables_wrapper .dataTables_length,.dataTables_wrapper .dataTables_filter,.dataTables_wrapper .dataTables_info,.dataTables_wrapper .dataTables_paginate {
+        display: block;
+        text-align: center;
+        float: none;
+        padding: 6px;
+    }
+
+    .AmazonWooCommerce-panel:not(.scrollable) table.AmazonWooCommerce-table {
+        table-layout: fixed;
+    }
+}

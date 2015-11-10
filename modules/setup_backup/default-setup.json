@@ -1,0 +1,15 @@
+{
+	"AmazonWooCommerce_module_advanced_search": "true",
+	"AmazonWooCommerce_module_assets_download": "true",
+	"AmazonWooCommerce_module_server_status": "true",
+	"AmazonWooCommerce_module_amazon": "true",
+	"AmazonWooCommerce_module_csv_products_import": "true",
+	"AmazonWooCommerce_module_synchronization": "true",
+	"AmazonWooCommerce_module_prices_fix": "true",
+	"AmazonWooCommerce_module_stats_prod": "true",
+	"AmazonWooCommerce_module_product_in_post": "true",
+	"AmazonWooCommerce_module_prices_fix": "true",
+	"AmazonWooCommerce_module_content_spinner": "true",
+	"AmazonWooCommerce_module_asin_grabber": "true", 
+	"AmazonWooCommerce_plugin_do_activation_redirect": false
+}
